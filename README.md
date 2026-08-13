@@ -5,12 +5,12 @@
 [![Version](https://poser.pugx.org/calliostro/spotify-web-api-bundle/version)](https://packagist.org/packages/calliostro/spotify-web-api-bundle)
 [![License](https://poser.pugx.org/calliostro/spotify-web-api-bundle/license)](https://packagist.org/packages/calliostro/spotify-web-api-bundle)
 
- > 🚀 **Easy integration of [jwilsson/spotify-web-api-php](https://github.com/jwilsson/spotify-web-api-php) into Symfony 6.4, 7 & 8!**
+ > 🚀 **Easy integration of [blueneko0827/spotify](https://github.com/blueneko0827/spotify) into Symfony 6.4, 7 & 8!**
 
 ## ✨ Features
 
 - Simple integration with Symfony 6.4, 7 & 8
-- Supports [jwilsson/spotify-web-api-php](https://github.com/jwilsson/spotify-web-api-php) v6 & v7
+- Supports [blueneko0827/spotify(https://github.com/blueneko0827/spotify) v6 & v7
 - Supports Client Credentials & Authorization Code flows
 - Autowire Spotify API services
 - Customizable token provider
@@ -72,7 +72,7 @@ calliostro_spotify_web_api:
     client_secret:        '' # Required
 
     # Options for SpotifyWebAPI client
-    # https://github.com/jwilsson/spotify-web-api-php/blob/main/docs/examples/setting-options.md
+    # https://github.com/blueneko0827/spotify/blob/main/docs/examples/setting-options.md
     options:
         auto_refresh:     false
         auto_retry:       false
@@ -184,7 +184,7 @@ class SpotifyController extends AbstractController
 
 ## 📚 Documentation
 
-See [jwilsson/spotify-web-api-php](https://github.com/jwilsson/spotify-web-api-php) for documentation of the SpotifyWebAPI service.
+See [jwilsson/spotify-web-api-php](https://github.com/blueneko0827/spotify) for documentation of the SpotifyWebAPI service.
 
 See [Spotify's Web API](https://developer.spotify.com/documentation/) full API documentation.
 
