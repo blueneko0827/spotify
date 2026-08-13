@@ -10,7 +10,7 @@
 ## ✨ Features
 
 - Simple integration with Symfony 6.4, 7 & 8
-- Supports [blueneko0827/spotify(https://github.com/blueneko0827/spotify) v6 & v7
+- Supports [blueneko0827/spotify](https://github.com/blueneko0827/spotify) v6 & v7
 - Supports Client Credentials & Authorization Code flows
 - Autowire Spotify API services
 - Customizable token provider
