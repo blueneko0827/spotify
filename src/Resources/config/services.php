@@ -24,5 +24,5 @@ return static function (ContainerConfigurator $configurator): void {
 
     // Aliases for autowiring
     $services->alias(Session::class, 'calliostro_spotify_web_api.session');
-    
+    $services->alias(SpotifyWebAPI::class, 'calliostro_spotify_web_api');
 };
