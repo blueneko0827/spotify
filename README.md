@@ -184,7 +184,7 @@ class SpotifyController extends AbstractController
 
 ## 📚 Documentation
 
-See [jwilsson/spotify-web-api-php](https://github.com/blueneko0827/spotify) for documentation of the SpotifyWebAPI service.
+See [blueneko0827/spotify](https://github.com/blueneko0827/spotify) for documentation of the SpotifyWebAPI service.
 
 See [Spotify's Web API](https://developer.spotify.com/documentation/) full API documentation.
 
